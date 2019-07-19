@@ -3,7 +3,8 @@ NVIDIA's Automatic Mixed Precision(AMP) is applied on a language model used for 
 
 Training Data can be downloaded from https://drive.google.com/file/d/1TSHH1EvRxlAf9U83wHLL4rg4zSjl6QRI/view?usp=sharing.
 
-Observations
+Observations:-
+
 1a. Trail 1 - Without AMP, loss = 1.2722, time = 86.03s (Batch Size = 64, Epochs=10, 2 layer model from scratch)
 
 1b. Trail 1 - With AMP, loss = 0.6885, time = 100.596 (Batch Size = 64, Epochs=10, 2 layer model from scratch)
