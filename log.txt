@@ -1,0 +1,24 @@
+[I 07:29:20.163 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.5/dist-packages/jupyterlab
+[I 07:29:20.163 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[W 07:29:20.165 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 07:29:20.167 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.5/dist-packages/jupyterlab
+[I 07:29:20.167 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 07:29:20.168 LabApp] Serving notebooks from local directory: /workspace/sarthak-tensorflow/Week 1 Mixed Precision/Automatic Mixed Precision TWD
+[I 07:29:20.168 LabApp] The Jupyter Notebook is running at:
+[I 07:29:20.168 LabApp] http://(a27b493aa779 or 127.0.0.1):8888/?token=44b10c12b17b641fa2b1906eff7434621bb1d7350e384951
+[I 07:29:20.168 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 07:29:20.171 LabApp] No web browser found: could not locate runnable browser.
+[C 07:29:20.171 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/nbserver-31229-open.html
+    Or copy and paste one of these URLs:
+        http://(a27b493aa779 or 127.0.0.1):8888/?token=44b10c12b17b641fa2b1906eff7434621bb1d7350e384951
+[W 07:29:25.249 LabApp] 404 GET /api/kernels/0b89b433-2833-420e-ab12-4d96478fc107/channels?session_id=0bbe28f9-541c-46ee-8da6-bea71d2d9fe2&token=981d8f14bae526fe7211afe79ec08e85fc1dc5b18b8150d7 (10.24.18.108): Kernel does not exist: 0b89b433-2833-420e-ab12-4d96478fc107
+[W 07:29:25.273 LabApp] 404 GET /api/kernels/0b89b433-2833-420e-ab12-4d96478fc107/channels?session_id=0bbe28f9-541c-46ee-8da6-bea71d2d9fe2&token=981d8f14bae526fe7211afe79ec08e85fc1dc5b18b8150d7 (10.24.18.108) 32.01ms referer=None
+[W 07:29:40.883 LabApp] Could not determine jupyterlab build status without nodejs
+[W 07:29:41.576 LabApp] 404 GET /api/contents/Week%201%20Mixed%20Precision?1563521380865 (10.24.18.108): No such file or directory: Week 1 Mixed Precision
+[W 07:29:41.576 LabApp] No such file or directory: Week 1 Mixed Precision
+[W 07:29:41.577 LabApp] 404 GET /api/contents/Week%201%20Mixed%20Precision?1563521380865 (10.24.18.108) 1.71ms referer=http://10.24.4.65:3001/lab?
+[W 07:30:39.974 LabApp] 401 POST /login?next=%2Flab%3F (10.24.18.108) 1.88ms referer=http://10.24.4.65:3001/login?next=%2Flab%3F
+[W 07:30:45.945 LabApp] 401 POST /login?next=%2Flab%3F (10.24.18.108) 1.69ms referer=http://10.24.4.65:3001/login?next=%2Flab%3F
