@@ -2,7 +2,10 @@
 NVIDIA's Automatic Mixed Precision(AMP) is applied on a language model used for trigger word detection. Main aim is to find out if AMP helps the model to converge faster.
 
 Training Dataset can be downloaded from https://drive.google.com/file/d/1---Wz0YoQ0xH6B4TP0IsUQnxRTVC9v5V/view?usp=drivesdk
-XY_Train.zip can be downloaded from the link. You need to unzip this foldeer and put it inside the folder "Automatic-Mixed-Precision-"
+
+XY_Train.zip can be downloaded from the link. 
+
+You need to unzip this foldeer and put it inside the folder "Automatic-Mixed-Precision-"
 
 Observations:-
 
