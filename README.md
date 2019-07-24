@@ -5,22 +5,21 @@ Training Dataset can be downloaded from https://drive.google.com/file/d/1---Wz0Y
 
 XY_Train.zip can be downloaded from the link. 
 
-You need to unzip this foldeer and put it inside the folder "Automatic-Mixed-Precision-"
+You need to unzip this foldeer and put it inside the folder "Automatic-Mixed-Precision"
+
+In the files written as "AMP ASR Trial x" we are using Automatic Mixed Precision and in the files written as "ASR Trian x" we are not using Automatic Mixed Precision.
+For eg. Code is same for "ASR Trial 2" and "AMP ASR Trial 2", except "AMP ASR Trial 2" has an added line of code where Automatic Mixed Precision is being utilised.
 
 Observations:-
 
-1a. Trial 1 - Without AMP, loss = 1.2722, time = 86.03s (Batch Size = 64, Epochs=10, 5 layer model from scratch)
+1. AMP ASR Trial 1, A 5 layer language model is built from scratch and for training we are using Automatic Mixed Precision Technique with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows "loss = 0.6885, time = 100.596"
 
-1b. Trial 1 - With AMP, loss = 0.6885, time = 100.596 (Batch Size = 64, Epochs=10, 5 layer model from scratch)
+2. ASR Trial 1, A 5 layer language model is built from scratch and for training with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows "loss = 1.2722, time = 86.03s"
 
-2a. Trial 2 - Without AMP, loss = 1.225, time = 127.96s (Batch Size = 32, Epochs=10, 5 layer model from scratch)
+3. AMP ASR Trial 2, A 5 layer language model is built from scratch and for training we are using Automatic Mixed Precision Technique with the following hyperparameters "Batch Size = 32, Epochs=10" Results are as follows  "loss = 0.6788, time = 150.20s"
 
-2b. Trial 2 - With AMP, loss = 0.6788, time = 150.20s (Batch Size = 32, Epochs=10, 5 layer model from scratch)
+4. ASR Trial 2, A 5 layer language model is built from scratch and for training with the following hyperparameters "Batch Size = 32, Epochs=10" Results are as follows "loss = 1.225, time = 127.96s"
 
-3a. Trial 3 - Without AMP, loss = 0.2695, time = 96.67s (Batch Size = 64, Epochs=10, Using PreTrained model)
+5. AMP ASR Trial 3, A pretrained model is loaded and compiled and is furthur trained with our data with using Automatic Mixed Precision Technique with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows  "loss = 0.2833, time = 99.3s"
 
-3b. Trial 3 - With AMP, loss = 0.2833, time = 99.3s (Batch Size = 64, Epochs=10, Using PreTrained model)
-
-4a. Trial 4 - Without AMP, loss = 0.180, time =90.58s (Batch Size = 64, Epochs=10, Both PreTrained model and 5 layer model)
-
-4b. Trial 4 - With AMP, loss = 0.280 , time = 103.46s (Batch Size = 64, Epochs=10, Both PreTrained model and 5 layer model)
+6. ASR Trial 3, A pretrained model is loaded and compiled and is furthur trained with our data with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows "loss = 0.2695, time = 96.67s"
