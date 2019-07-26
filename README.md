@@ -19,6 +19,6 @@ Observations:-
 
 4. ASR Trial 2, A 5 layer language model is built from scratch and for training with the following hyperparameters "Batch Size = 32, Epochs=10" Results are as follows "loss = 1.225, time = 127.96s"
 
-5. AMP ASR Trial 3, A pretrained model is loaded and compiled and is trained with  train_data with using Automatic Mixed Precision Technique with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows  "loss = 0.2833, time = 99.3s"
+5. AMP ASR Trial 3, A pretrained model is loaded and compiled and is trained with  XY_train with using Automatic Mixed Precision Technique with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows  "loss = 0.2833, time = 99.3s"
 
-6. ASR Trial 3, A pretrained model is loaded and compiled and is trained with train_data with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows "loss = 0.2695, time = 96.67s"
+6. ASR Trial 3, A pretrained model is loaded and compiled and is trained with XY_train with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows "loss = 0.2695, time = 96.67s"
