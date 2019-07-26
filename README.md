@@ -1,7 +1,7 @@
 # Automatic-Mixed-Precision-
 NVIDIA's Automatic Mixed Precision(AMP) is applied on a model used for trigger word detection using convolution layer and GRU. Main aim is to find out if AMP helps the model to converge faster.
 
-Download the train Data from https://drive.google.com/file/d/1---Wz0YoQ0xH6B4TP0IsUQnxRTVC9v5V/view?usp=drivesdk if you want to follow along the notebook.
+Download the train data from https://drive.google.com/file/d/1---Wz0YoQ0xH6B4TP0IsUQnxRTVC9v5V/view?usp=drivesdk if you want to follow along the notebook.
 
 Extract XY_train folder to the root of the project directory.
 
@@ -19,6 +19,6 @@ Observations:-
 
 4. ASR Trial 2, A 5 layer language model is built from scratch and for training with the following hyperparameters "Batch Size = 32, Epochs=10" Results are as follows "loss = 1.225, time = 127.96s"
 
-5. AMP ASR Trial 3, A pretrained model is loaded and compiled and is furthur trained with our data with using Automatic Mixed Precision Technique with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows  "loss = 0.2833, time = 99.3s"
+5. AMP ASR Trial 3, A pretrained model is loaded and compiled and is trained with  train_data with using Automatic Mixed Precision Technique with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows  "loss = 0.2833, time = 99.3s"
 
-6. ASR Trial 3, A pretrained model is loaded and compiled and is furthur trained with our data with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows "loss = 0.2695, time = 96.67s"
+6. ASR Trial 3, A pretrained model is loaded and compiled and is trained with train_data with the following hyperparameters "Batch Size = 64, Epochs=10" Results are as follows "loss = 0.2695, time = 96.67s"
