@@ -1,4 +1,4 @@
-# Automatic-Mixed-Precision-
+# Automatic-Mixed-Precision
 NVIDIA's Automatic Mixed Precision(AMP) is applied on a model used for trigger word detection using convolution layer and GRU. Main aim is to find out if AMP helps the model to converge faster.
 
 Download the train data from https://drive.google.com/file/d/1---Wz0YoQ0xH6B4TP0IsUQnxRTVC9v5V/view?usp=drivesdk if you want to follow along the notebook.
